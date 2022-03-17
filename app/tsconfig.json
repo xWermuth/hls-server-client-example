@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "rootDir": ".",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "noImplicitAny": false,
+        "lib": [
+            "es6",
+            "dom"
+        ]
+    }
+}
