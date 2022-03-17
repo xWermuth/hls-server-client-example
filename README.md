@@ -25,7 +25,7 @@ Then run:
 ### Setup
 
 First start by encoding a video. You can use your own one by adding it to the ```server/src/main/resources/video/<your_file.mp4>```.
-The call endpoint: ```http://localhost:8080/video/encode/<filename>``` where \<filename> is the file to be encoded.
+Then call endpoint: ```http://localhost:8080/video/encode/<filename>``` where \<filename> is the file to be encoded.
 
 Then navigate to ```http://localhost:3000/``` where the video will be displayed. To change the ad displayed change the src of the Iframes on line 25 or line 74.
 
