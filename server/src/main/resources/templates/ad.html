@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title th:text="${adnumber}" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body style="margin: 0; padding: 0">
+    <video
+      id="video"
+      autoplay="true"
+      muted="muted"
+      loop
+      playsinline
+      style="height: 100%; width: 100%"
+    ></video>
+
+    <script type="text/javascript" th:src="@{/js/bundle.js}"></script>
+    <script th:inline="javascript">
+      var video = document.getElementById("video");
+      const adNumber = /*[[${adnumber}]]*/ "";
+      const hls = new IX_Hls(adNumber);
+      hls.run(video);
+    </script>
+  </body>
+</html>
