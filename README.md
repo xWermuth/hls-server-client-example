@@ -1,5 +1,11 @@
 # hls-server-client-example
 
+Stream video while streamlessly adapt to to changing network conditions by dynamically raising or lowering the qaulity of the stream.
+
+Client: *Typescript*
+
+Server: *Java*  
+
 ## Running the project
 
 ### Build client
